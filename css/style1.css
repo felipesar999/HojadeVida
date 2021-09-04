@@ -7,7 +7,7 @@
 .contenedor
 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 800px;
     min-height: 100vh;
     margin: 0px auto;
     background-color: blanchedalmond;
@@ -55,13 +55,13 @@
     justify-content: left;
     border-color: black;
     border-width: 10px;
-    font-size: xx-large;
+    font-size: 20px;
 }
 
-.contenedor .contenedor1 .data .data_content_name > h3{
+.contenedor .contenedor1 .data .data_content_name > h4{
     color: #242BC2;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center; 
 }
 
@@ -76,21 +76,103 @@
 .contenedor .contenedor1 .objetives {
     width: 100%;
     height: 400px;
-    background-color: rgb(179, 84, 29);
-
+    background-color: whitesmoke;
+    padding: 20px;
 }
+
+.contenedor .contenedor1 .objetives > h3 {
+    color: #242BC2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size:x-large   ;
+    padding-bottom: 5px;
+}
+
+.contenedor .contenedor1 .objetives > p {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 5px;
+}
+
+
 
 .contenedor .contenedor1 .skills {
     width: 100%;
     height: 400px;
-    background-color: rgb(128, 0, 100);
+    background-color: whitesmoke;
+}
 
+.contenedor .contenedor1 .skills .data_skill_dt {
+    color: #242BC2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size:x-large   ;
+    padding-bottom: 5px;
+}
+
+.contenedor .contenedor1 .skills .data_skill_dd {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .contenedor .contenedor2
 {
     width: 70%;
-    height: 100vh;   
     display: flex;
     flex-direction:column; 
 } 
+
+.contenedor .contenedor2 .experience {
+    width: 100%;
+    height: 60%;
+    background-color: whitesmoke;
+}
+
+.contenedor .contenedor2 .experience .experience_content_title > h3 {
+    color: #242BC2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size:x-large   ;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.contenedor .contenedor2 .experience .experience_content {
+    justify-content: center;
+    align-items: center; 
+}
+
+.contenedor .contenedor2 .experience .experience_content .experience_content_data{
+    padding: 10px;
+}
+
+.contenedor .contenedor2 .education{
+    width: 100%;
+    height: 60%;
+    background-color: whitesmoke;
+}
+
+.contenedor .contenedor2 .education .university {
+    color: #242BC2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size:x-large   ;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.contenedor .contenedor2 .education .university_content {
+justify-content: center;
+align-items: center; 
+}
+
+    
+.contenedor .contenedor2 .education .university_content_data{
+padding: 10px;
+}
