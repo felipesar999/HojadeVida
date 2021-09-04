@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+}
+
+.contenedor
+{
+    width: 90%;
+    max-width: 850px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    
+    
+}
+
+.contenedor > div {
+    background-color: rgb(209, 208, 208);
+    border-radius: 12px;
+}
+
+.contenedor > header {
+    background: #12203E;
+    color: white;
+    grid-column-start:1;
+    grid-column-end: -1;
+    padding: 20px;
+    border-radius: 4px;
+    border-radius: 20px;
+    align-items: center;
+    align-self: center;
+}
+
+.portada {
+    grid-row:span 2;
+    align-items: center;
+    align-self: center;
+
+}
+
+.data {
+    grid-row:span 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.objetives {
+    grid-row:span 2;
+}
+
+.skills {
+    grid-row:span 2;
+}
+
+.experience {
+    grid-column:span 3;
+    grid-row:span 4;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.experience_content_title {
+    height: 15%;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.experience_content_title > h3{
+    color: #242BC2;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;    
+}
+
+.experience_content {
+    height: 70%;
+}
+
+
+.experience_content_data {
+    height: calc(100%/3);
+}
+
+.education {
+    grid-column:span 3;
+    grid-row:span 4;
+}
+
+.skills .skills_content_data{
+    padding-left: 50px;
+}
+
+.data_content_name {
+    height: 40%;
+}
+
+.data_content_name > h3{
+    color: #242BC2;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: left; 
+}
+
+.data_content {
+    height: 190%;
+}
+
+.data_content.data {
+    height: 50%;
+    size: 70px;
+}
+
+
+
+.tittle{
+    color: #242BC2;
+    text-align: center;
+}
+
+.tittle_data{
+    color: #242BC2;
+    text-align: left;
+}
+
+.subtittle{
+    color: #6B6B6B;
+    text-align: left;
+    font:"open sans";
+}
+
+.date{
+    color: #242BC2;
+    font-size: small;
+}
